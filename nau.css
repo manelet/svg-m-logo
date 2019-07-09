@@ -1,0 +1,77 @@
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper  {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+#ovni {
+  width: 100%;
+  height: 100%;
+}
+
+@keyframes zoomFoc {
+  to {
+    transform: scale(1.3);
+  }
+}
+
+@keyframes canvi-llum {
+  0%{ 
+    fill: red;
+  }
+  50% {
+    fill: green;
+  }
+  100% {
+    fill: yellow;
+  }
+}
+
+@keyframes allargar {
+  to {
+    height: 200px;
+  }
+}
+
+#pal {
+  animation: allargar 1.5s ease-in;
+  animation-iteration-count: infinite;
+}
+
+#foc_esq, #foc_dret {
+  animation: zoomFoc 1.5s ease-in;
+  animation-iteration-count: infinite;
+  /* transform-origin: 50% -50%; */
+}
+
+#foc_dret {
+  animation-delay: .7s;
+}
+
+#llum_1, #llum_2, #llum_3, #llum_4, #llum_5 {
+  animation: canvi-llum 2s linear;
+  animation-iteration-count: infinite;
+}
+
+#llum_2 {
+  animation-delay: .5s;
+}
+
+#llum_3 {
+  animation-delay: .8s;
+}
+
+#llum_4 {
+  animation-delay: 1s;
+}
+
+#llum_5 {
+  animation-delay: 1.3s;
+}

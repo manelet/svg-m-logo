@@ -1,0 +1,122 @@
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inner {
+  width: 100px;
+  height: 100px;
+}
+
+.logo {
+  cursor: pointer;
+  display: flex;
+}
+
+.cls-1 {
+  transition-duration: .15s;
+  transform-origin: 50% 50%;
+}
+
+#M {
+  width: 100%;
+}
+
+#top { fill: hsl(53,86%,90%) }
+#top-2 { fill: hsl(53,86%,80%) }
+#top-3 { fill: hsl(53,86%,70%) }
+#top-4 { fill: hsl(53,86%,60%) }
+#top-5 { fill: hsl(53,86%,50%) }
+#top-6 { fill: hsl(53,86%,40%) }
+#top-7 { fill: hsl(53,86%,30%) }
+#top-8 { fill: hsl(53,86%,20%) }
+#top-9 { fill: hsl(53,86%,30%) }
+#top-10 { fill: hsl(53,86%,40%) }
+#top-11 { fill: hsl(53,86%,50%) }
+#top-12 { fill: hsl(53,86%,60%) }
+#top-13 { fill: hsl(53,86%,70%) }
+#top-14 { fill: hsl(53,86%,80%) }
+#top-15 { fill: hsl(53,86%,90%) }
+#top-16 { fill: hsl(53,86%,50%) }
+
+#mid-top { fill: hsla(356, 90%, 90%, 1); }
+#mid-top-2 { fill: hsla(356, 90%, 80%, 1); }
+#mid-top-3 { fill: hsla(356, 90%, 70%, 1); }
+#mid-top-4 { fill: hsla(356, 90%, 60%, 1); }
+#mid-top-5 { fill: hsla(356, 90%, 50%, 1); }
+#mid-top-6 { fill: hsla(356, 90%, 40%, 1); }
+#mid-top-7 { fill: hsla(356, 90%, 30%, 1); }
+#mid-top-8 { fill: hsla(356, 90%, 20%, 1); }
+#mid-top-9 { fill: hsla(356, 90%, 90%, 1); }
+#mid-top-10 { fill: hsla(356, 90%, 80%, 1); }
+#mid-top-11 { fill: hsla(356, 90%, 70%, 1); }
+#mid-top-12 { fill: hsla(356, 90%, 60%, 1); }
+#mid-top-13 { fill: hsla(356, 90%, 50%, 1); }
+#mid-top-14 { fill: hsla(356, 90%, 40%, 1); }
+#mid-top-15 { fill: hsla(356, 90%, 30%, 1); }
+#mid-top-16 { fill: hsla(356, 90%, 20%, 1); }
+#mid-top-17 { fill: hsla(356, 90%, 90%, 1); }
+#mid-top-18 { fill: hsla(356, 90%, 80%, 1); }
+#mid-top-19 { fill: hsla(356, 90%, 70%, 1); }
+#mid-top-20 { fill: hsla(356, 90%, 60%, 1); }
+#mid-top-21 { fill: hsla(356, 90%, 50%, 1); }
+
+#middle { fill: hsla(280, 78%, 90%, 1); }
+#middle-2 { fill: hsla(280, 78%, 80%, 1); }
+#middle-3 { fill: hsla(280, 78%, 70%, 1); }
+#middle-4 { fill: hsla(280, 78%, 60%, 1); }
+#middle-5 { fill: hsla(280, 78%, 50%, 1); }
+#middle-6 { fill: hsla(280, 78%, 40%, 1); }
+#middle-7 { fill: hsla(280, 78%, 30%, 1); }
+#middle-8 { fill: hsla(280, 78%, 20%, 1); }
+#middle-9 { fill: hsla(280, 78%, 90%, 1); }
+#middle-10 { fill: hsla(280, 78%, 80%, 1); }
+#middle-11 { fill: hsla(280, 78%, 70%, 1); }
+#middle-12 { fill: hsla(280, 78%, 60%, 1); }
+#middle-13 { fill: hsla(280, 78%, 50%, 1); }
+#middle-14 { fill: hsla(280, 78%, 40%, 1); }
+#middle-15 { fill: hsla(280, 78%, 30%, 1); }
+#middle-16 { fill: hsla(280, 78%, 20%, 1); }
+#middle-17 { fill: hsla(280, 78%, 90%, 1); }
+#middle-18 { fill: hsla(280, 78%, 80%, 1); }
+#middle-19 { fill: hsla(280, 78%, 70%, 1); }
+#middle-20 { fill: hsla(280, 78%, 60%, 1); }
+#middle-21 { fill: hsla(280, 78%, 50%, 1); }
+#middle-22 { fill: hsla(280, 78%, 40%, 1); }
+#middle-23 { fill: hsla(280, 78%, 30%, 1); }
+#middle-24 { fill: hsla(280, 78%, 20%, 1); }
+
+#bottom { fill: hsla(191, 86%, 90%, 1); }
+#bottom-2 { fill: hsla(191, 86%, 80%, 1); }
+#bottom-3 { fill: hsla(191, 86%, 70%, 1); }
+#bottom-4 { fill: hsla(191, 86%, 60%, 1); }
+#bottom-5 { fill: hsla(191, 86%, 50%, 1); }
+#bottom-6 { fill: hsla(191, 86%, 40%, 1); }
+#bottom-7 { fill: hsla(191, 86%, 30%, 1); }
+#bottom-8 { fill: hsla(191, 86%, 20%, 1); }
+#bottom-9 { fill: hsla(191, 86%, 90%, 1); }
+#bottom-10 { fill: hsla(191, 86%, 80%, 1); }
+#bottom-11 { fill: hsla(191, 86%, 70%, 1); }
+#bottom-12 { fill: hsla(191, 86%, 60%, 1); }
+#bottom-13 { fill: hsla(191, 86%, 50%, 1); }
+#bottom-14 { fill: hsla(191, 86%, 40%, 1); }
+#bottom-15 { fill: hsla(191, 86%, 30%, 1); }
+
+
+.logo:hover #top-2 { transform: rotate(15deg) translate3d(12px, -25px, 0); }
+.logo:hover #top-3 { transform: rotate(15deg) translate3d(-10px, -25px, 0); }
+.logo:hover #top-4 { transform: rotate(5deg) translate3d(-15px, -15px, 0); }
+.logo:hover #top-5 { transform: rotate(0deg) translate3d(-10px, -15px, 0); }
+
+.logo:hover #bottom { transform: rotate(17deg) translate3d(1.4em, .5em, 0); }
